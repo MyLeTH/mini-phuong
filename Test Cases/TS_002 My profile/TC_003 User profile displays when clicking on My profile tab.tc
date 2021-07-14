@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_003 User profile displays when clicking on My profile tab</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2978dfd4-ee81-4745-9303-33ffb1b7aa3a</testCaseGuid>
+</TestCaseEntity>

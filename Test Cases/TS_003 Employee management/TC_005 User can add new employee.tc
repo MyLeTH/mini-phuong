@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_005 User can add new employee</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6a980493-074c-4c9f-b69a-0b7f0ae353a8</testCaseGuid>
+</TestCaseEntity>

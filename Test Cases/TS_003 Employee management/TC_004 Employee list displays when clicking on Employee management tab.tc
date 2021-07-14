@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_004 Employee list displays when clicking on Employee management tab</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>125743a1-f8d9-438d-b865-4a1687215ba6</testCaseGuid>
+</TestCaseEntity>
