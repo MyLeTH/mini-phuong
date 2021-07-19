@@ -19,11 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'HomePage_keyword.Login'()
 
-WebUI.click(findTestObject('Mini-Phuong/SideBar/MyProfile_tab'))
+CustomKeywords.'Util_keywords.ClickRowByIndex'(0)
 
-CustomKeywords.'Checkpoint_keyword.CheckTitle'('My Profile')
+WebUI.click(findTestObject('Mini-Phuong/BasePage/Edit_btn'))
 
-CustomKeywords.'Checkpoint_keyword.CheckAllFieldsByData'('Data Files/Employee/Employee_data')
+CustomKeywords.'Util_keywords.InputFieldsByDataFile'('')
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Mini-Phuong/BasePage/Save_btn'))
+
+CustomKeywords.'Util_keywords.ClickRowByIndex'(0)
+
+WebUI.click(findTestObject('Mini-Phuong/BasePage/Edit_btn'))
+
+CustomKeywords.'Checkpoint_keyword.CheckAllFieldsByData'('')
 

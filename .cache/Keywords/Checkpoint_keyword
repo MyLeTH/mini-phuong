@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "0453C82AA35D0CAB9C1AD036E4E81D1A",
+  "keywordFileContentHash": "623E7A1B8366B35C7878001175A2D618",
   "keywordClasses": [
     {
       "name": "Checkpoint_keyword",
@@ -20,11 +20,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
-          "name": "CheckProfile",
+          "name": "CheckAllFieldsByData",
           "parameters": [
             {
               "name": "data_file",
@@ -39,8 +38,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "CheckHeaderName",
@@ -58,11 +56,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

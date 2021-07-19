@@ -49,9 +49,14 @@ public class Util_keywords {
 		}
 		return(returnValue)
 	}
-	@Keyword 
+	@Keyword
 	def SearchByValue(String value) {
 		WebUI.setText(findTestObject('Mini-Phuong/BasePage/Search_txt'), value)
 		WebUI.sendKeys(findTestObject('Mini-Phuong/BasePage/Search_txt'), Keys.chord(Keys.ENTER))
+	}
+	@Keyword
+	def ClickRowByIndex(int index) {
+		TestObject Row = new TestObject().addProperty('xpath', ConditionType.EQUALS,"//table/tbody/tr[@tabindex='${index}']")
+		WebUI.click(Row)
 	}
 }

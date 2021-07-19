@@ -34,7 +34,7 @@ public class Checkpoint_keyword {
 		WebUI.verifyElementVisible(title)
 	}
 	@Keyword
-	def CheckProfile(String data_file) {
+	def CheckAllFieldsByData(String data_file) {
 		ExcelData data = findTestData(data_file)
 		for (def index : (1..data.getRowNumbers() - 1)) {
 			String field = data.getValue("FieldName", index)

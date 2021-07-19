@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "50CD708B08BC907F38AB06535D6ECB3A",
+  "keywordFileContentHash": "ACD429270A00F5E6A4A4A39D2F0D0274",
   "keywordClasses": [
     {
       "name": "Util_keywords",
@@ -20,13 +20,11 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "GetHeaderValue",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "SearchByValue",
@@ -44,11 +42,28 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
+        },
+        {
+          "name": "ClickRowByIndex",
+          "parameters": [
+            {
+              "name": "index",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

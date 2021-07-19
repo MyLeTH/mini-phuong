@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_006 User can edit employee</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fdd9d739-3c61-4fea-ac10-5a03d64ede5b</testCaseGuid>
+</TestCaseEntity>

@@ -21,10 +21,9 @@ CustomKeywords.'HomePage_keyword.Login'()
 
 WebUI.click(findTestObject('Mini-Phuong/SideBar/Employee_tab'))
 
-//WebUI.click(findTestObject('Mini-Phuong/BasePage/Create_btn'))
+WebUI.click(findTestObject('Mini-Phuong/BasePage/Create_btn'))
 
-//CustomKeywords.'Util_keywords.InputFieldsByDataFile'('Data Files/Employee/Employee_data')
+CustomKeywords.'Util_keywords.InputFieldsByDataFile'('Data Files/Employee/Employee_data')
 
-
-CustomKeywords.'Util_keywords.SearchByValue'('abcdefgh')
+WebUI.click(findTestObject('Mini-Phuong/BasePage/Save_btn'))
 
