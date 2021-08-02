@@ -20,11 +20,13 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "GetHeaderValue",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "SearchByValue",
@@ -42,7 +44,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "ClickRowByIndex",
@@ -60,10 +63,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
